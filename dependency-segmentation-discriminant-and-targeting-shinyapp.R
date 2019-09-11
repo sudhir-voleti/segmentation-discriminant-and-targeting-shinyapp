@@ -11,7 +11,7 @@ try(require("MASS")||install.packages("MASS"))
 try(require("devtools")||install.packages("devtools"))
 library("devtools")
 
-if(!require("ggbiplot") {install_github("ggbiplot","vqv")}
+if(!require("ggbiplot")) {install_github("ggbiplot","vqv")}
 
 try(require("ggplot2")||install.packages("ggplot2"))
 try(require("scales")||install.packages("scales"))
